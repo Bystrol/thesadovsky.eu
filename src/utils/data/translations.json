@@ -1,11 +1,71 @@
 {
   "pl": {
-    "heading": "Nasze aktualne promocje"
+    "heading": "Nasze aktualne promocje",
+    "cards": [
+      {
+        "paragraph": "-20% na wszystkie kosmetyki naszej marki C.O.S (Cult of Success)"
+      },
+      {
+        "paragraph": "Sharley Hairclinic - darmowa konsultacja u lekarza oraz rabat na przeszczep włosów - 3000zł"
+      },
+      {
+        "paragraph": "IvRoxe - salon zdrowia i masażu - 25zł"
+      },
+      {
+        "paragraph": "FIRST - cyberclub - 10 darmowych godzin grania na PC lub konsoli"
+      },
+      {
+        "paragraph": "Premium kawior - -10% na wszystkie rodzaje kawioru premium jakości"
+      },
+      {
+        "paragraph": "Royal Enfield - darmowy przejazd motocyklem oraz rabat -15% na zakup akcesoriów"
+      }
+    ]
   },
   "uk": {
-    "heading": "Наші поточні акції"
+    "heading": "Наші поточні акції",
+    "cards": [
+      {
+        "paragraph": "-20% на всю косметику нашого бренду C.O.S (Cult of Success)"
+      },
+      {
+        "paragraph": "Sharley Hairclinic - безкоштовна консультація лікаря та знижка на трансплантацію волосся - 3000PLN"
+      },
+      {
+        "paragraph": "IvRoxe - салон здоров'я та масажу - 25PLN"
+      },
+      {
+        "paragraph": "ПЕРШЕ - кіберклуб - 10 безкоштовних годин гри на ПК або консолі"
+      },
+      {
+        "paragraph": "Ікра преміум-класу - -10% на всі види ікри преміум-класу"
+      },
+      {
+        "paragraph": "Royal Enfield - безкоштовна поїздка на мотоциклі та знижка -15% на придбання аксесуарів"
+      }
+    ]
   },
   "en": {
-    "heading": "Our current promotions"
+    "heading": "Our current promotions",
+    "cards": [
+      {
+        "paragraph": "-20% on all cosmetics of our brand C.O.S (Cult of Success)"
+      },
+      {
+        "paragraph": "Sharley Hairclinic - free consultation with a doctor and discount on hair transplant - 3000PLN"
+      },
+      {
+        "paragraph": "IvRoxe - health and massage salon - 25PLN"
+      },
+      {
+        "paragraph": "FIRST - cyberclub - 10 free hours of gaming on PC or console"
+      },
+      {
+        "paragraph": "Premium caviar - -10% on all types of premium quality caviar"
+      },
+      {
+        "paragraph": "Royal Enfield - free motorcycle ride and -15% discount on accessories purchase"
+      }
+    ]
   }
 }
