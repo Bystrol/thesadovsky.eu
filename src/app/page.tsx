@@ -17,6 +17,9 @@ export default function Home() {
       <main className="min-h-svh py-[105px] md:pb-[20px]">
         <PromotionsSection translation={translation} />
       </main>
+      <footer className="md:absolute bottom-0 left-0 w-full">
+        <p className="text-center">© The Sadovsky Barbershop 2024</p>
+      </footer>
     </>
   )
 }
