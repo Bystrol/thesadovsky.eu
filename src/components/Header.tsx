@@ -12,7 +12,7 @@ export default function Header({
   handleLanguageChange
 }: HeaderProps) {
   return (
-    <header className="w-full flex justify-center bg-black/25 p-4 border-b border-white">
+    <header className="absolute top-0 left-0 w-full flex justify-center bg-black/25 p-4 border-b border-white">
       <div className="relative flex justify-center w-full max-w-[1440px]">
         <Image
           src={Logo}
