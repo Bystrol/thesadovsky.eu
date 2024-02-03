@@ -8,11 +8,12 @@ export default function Home() {
     useLanguagePicker()
 
   return (
-    <main className="min-h-svh">
+    <>
       <Header
         currentLanguage={currentLanguage}
         handleLanguageChange={handleLanguageChange}
       />
-    </main>
+      <main className="min-h-svh"></main>
+    </>
   )
 }
