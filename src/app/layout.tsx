@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Kalam } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const kalam = Kalam({ weight: '400', subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thesadovsky.eu/'),
@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className={inter.className}>{children}</body>
+      <body className={kalam.className}>{children}</body>
     </html>
   )
 }
