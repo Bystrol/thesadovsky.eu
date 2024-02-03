@@ -4,18 +4,22 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 7, 89, 7;
-  --background-middle-rgb: 4, 64, 4;
-  --background-end-rgb: 12, 40, 2;
+  --background-first-rgb: 7, 19, 17;
+  --background-second-rgb: 25, 73, 64;
+  --background-third-rgb: 52, 92, 84;
+  --background-fourth-rgb: 25, 73, 64;
+  --background-fifth-rgb: 7, 19, 17;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-    to bottom,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-middle-rgb)),
-    rgb(var(--background-end-rgb))
+    to right,
+    rgb(var(--background-first-rgb)),
+    rgb(var(--background-second-rgb)),
+    rgb(var(--background-third-rgb)),
+    rgb(var(--background-fourth-rgb)),
+    rgb(var(--background-fifth-rgb))
   );
 }
 
