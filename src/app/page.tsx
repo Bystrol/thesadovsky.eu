@@ -1,6 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
+import PromotionsSection from '@/components/PromotionsSection'
 import useLanguagePicker from '@/hooks/useLanguagePicker'
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
         currentLanguage={currentLanguage}
         handleLanguageChange={handleLanguageChange}
       />
-      <main className="min-h-svh"></main>
+      <main className="min-h-svh py-[105px] md:pb-[20px]">
+        <PromotionsSection translation={translation} />
+      </main>
     </>
   )
 }
