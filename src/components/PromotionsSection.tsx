@@ -18,28 +18,31 @@ const textVariants = {
 
 const promotionCards = [
   {
-    bgClass: "bg-[url('/logo.svg')]",
-    linkHref: 'https://thesadovsky.pl/'
+    bgClass: "bg-[url('/IMG_3819.jpeg')]",
+    linkHref: 'https://www.instagram.com/c.o.s.poland?igsh=cW9xeG92ZjZ5Nmc0'
   },
   {
-    bgClass: "bg-[url('/logo.svg')]",
-    linkHref: 'https://thesadovsky.pl/'
+    bgClass: "bg-[url('/IMG_3820.jpeg')]",
+    linkHref:
+      'https://www.instagram.com/sharley_hair_clinic?igsh=Y25uOWt3dXl6dGo5'
   },
   {
-    bgClass: "bg-[url('/logo.svg')]",
-    linkHref: 'https://thesadovsky.pl/'
+    bgClass: "bg-[url('/IMG_3821.jpeg')]",
+    linkHref:
+      'https://www.instagram.com/ivroxe_salon_zdrowia_warszawa?igsh=MWRib29xa2hrcWUyZw%3D%3D'
   },
   {
-    bgClass: "bg-[url('/logo.svg')]",
-    linkHref: 'https://thesadovsky.pl/'
+    bgClass: "bg-[url('/IMG_3823.jpeg')]",
+    linkHref:
+      'https://www.instagram.com/first_cyberclub?igsh=MTlqbTd1cmc2cmhteQ%3D%3D'
   },
   {
-    bgClass: "bg-[url('/logo.svg')]",
-    linkHref: 'https://thesadovsky.pl/'
+    bgClass: "bg-[url('/IMG_3822.jpeg')]",
+    linkHref: 'https://www.instagram.com/premium.ikra.pl?igsh=M3Z1ejhrdnFranI2'
   },
   {
-    bgClass: "bg-[url('/logo.svg')]",
-    linkHref: 'https://thesadovsky.pl/'
+    bgClass: "bg-[url('/IMG_3824.jpeg')]",
+    linkHref: 'https://www.royalenfield.com/pl/pl/home/'
   }
 ]
 

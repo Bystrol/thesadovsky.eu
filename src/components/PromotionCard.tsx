@@ -34,14 +34,14 @@ export default function PromotionCard({
       initial="hidden"
       transition={{ duration: 0.5 }}
       animate={isInView ? 'visible' : 'hidden'}
-      className="group relative w-full md:w-[32%] h-[40vh] md:h-[30vh] hover:cursor-pointer overflow-hidden"
+      className="group relative w-full md:w-[32%] h-[50vh] md:h-[60vh] hover:cursor-pointer overflow-hidden"
     >
       <Link href={linkHref} target="_blank">
         <div
           className={`w-full h-full ${bgClass} bg-center bg-cover group-hover:scale-105 transition-all duration-300`}
         />
-        <div className="md:opacity-0 group-hover:opacity-100 absolute bottom-0 left-0 w-full bg-black/50 p-2 transition-all duration-300">
-          <p className="text-[3vh] md:text-[2vh]">{paragraph}</p>
+        <div className="md:opacity-0 group-hover:opacity-100 absolute bottom-0 left-0 w-full bg-black/60 p-2 transition-all duration-300">
+          <p className="text-[3vh]">{paragraph}</p>
         </div>
       </Link>
     </motion.div>

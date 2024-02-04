@@ -14,10 +14,10 @@ export default function Home() {
         currentLanguage={currentLanguage}
         handleLanguageChange={handleLanguageChange}
       />
-      <main className="min-h-svh py-[105px] md:pb-[20px]">
+      <main className="min-h-svh py-[105px]">
         <PromotionsSection translation={translation} />
       </main>
-      <footer className="md:absolute bottom-0 left-0 w-full">
+      <footer className="w-full py-4">
         <p className="text-center">© The Sadovsky Barbershop 2024</p>
       </footer>
     </>
