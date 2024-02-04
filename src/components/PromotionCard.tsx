@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { DM_Sans } from 'next/font/google'
+
+const dm_sans = DM_Sans({ weight: '400', subsets: ['latin'] })
 
 type PromotionCardProps = {
   bgClass: string
@@ -41,7 +44,7 @@ export default function PromotionCard({
           className={`w-full h-full ${bgClass} bg-center bg-cover group-hover:scale-105 transition-all duration-300`}
         />
         <div className="md:opacity-0 group-hover:opacity-100 absolute bottom-0 left-0 w-full bg-black/60 p-2 transition-all duration-300">
-          <p className="text-[3vh]">{paragraph}</p>
+          <p className={`text-[3vh] ${dm_sans.className}`}>{paragraph}</p>
         </div>
       </Link>
     </motion.div>
