@@ -54,12 +54,12 @@ export default function PromotionsSection({
 
   return (
     <section ref={containerRef} className="flex justify-center">
-      <div className="px-4 md:px-0 w-full max-w-[1440px]">
+      <div className="px-4 min-[1440px]:px-0 w-full max-w-[1440px]">
         <motion.h1
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
           transition={{ staggerChildren: 0.05 }}
-          className="text-center text-[4vh] md:text-[8vh] my-4"
+          className="text-center text-[4vh] md:text-[8vh] my-8 leading-none"
         >
           {translation.heading.split('').map((char, index) => {
             return (
