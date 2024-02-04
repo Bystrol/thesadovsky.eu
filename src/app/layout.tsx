@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Kalam } from 'next/font/google'
+import { Courgette } from 'next/font/google'
 import './globals.css'
 
-const kalam = Kalam({ weight: '400', subsets: ['latin'] })
+const courgette = Courgette({ weight: '400', subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thesadovsky.eu/'),
@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className={kalam.className}>{children}</body>
+      <body className={courgette.className}>{children}</body>
     </html>
   )
 }
