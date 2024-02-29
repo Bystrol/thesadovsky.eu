@@ -37,17 +37,17 @@ const promotionCards = [
       'https://www.instagram.com/first_cyberclub?igsh=MTlqbTd1cmc2cmhteQ%3D%3D'
   },
   {
+    bgClass: "bg-[url('/IMG_3825.jpg')]",
+    linkHref:
+      'https://www.instagram.com/detailing.oneway?igsh=MWwwa3VhbDhkc3dzbw%3D%3D'
+  },
+  {
     bgClass: "bg-[url('/IMG_3822.jpeg')]",
     linkHref: 'https://www.instagram.com/premium.ikra.pl?igsh=M3Z1ejhrdnFranI2'
   },
   {
     bgClass: "bg-[url('/IMG_3824.jpeg')]",
     linkHref: 'https://www.royalenfield.com/pl/pl/home/'
-  },
-  {
-    bgClass: "bg-[url('/IMG_3825.jpg')]",
-    linkHref:
-      'https://www.instagram.com/detailing.oneway?igsh=MWwwa3VhbDhkc3dzbw%3D%3D'
   }
 ]
 
