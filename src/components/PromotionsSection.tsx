@@ -43,6 +43,11 @@ const promotionCards = [
   {
     bgClass: "bg-[url('/IMG_3824.jpeg')]",
     linkHref: 'https://www.royalenfield.com/pl/pl/home/'
+  },
+  {
+    bgClass: "bg-[url('/IMG_3825.jpg')]",
+    linkHref:
+      'https://www.instagram.com/detailing.oneway?igsh=MWwwa3VhbDhkc3dzbw%3D%3D'
   }
 ]
 
