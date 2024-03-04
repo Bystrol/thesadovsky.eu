@@ -48,6 +48,11 @@ const promotionCards = [
   {
     bgClass: "bg-[url('/IMG_3824.jpeg')]",
     linkHref: 'https://www.royalenfield.com/pl/pl/home/'
+  },
+  {
+    bgClass: "bg-[url('/IMG_3826.png')]",
+    linkHref:
+      'https://www.instagram.com/krasivo.project_pl?igsh=NHZzMG5tOGxoMXk4'
   }
 ]
 
@@ -74,7 +79,7 @@ export default function PromotionsSection({
             )
           })}
         </motion.h1>
-        <motion.div className="flex flex-col items-center justify-between md:flex-row flex-wrap gap-y-14 md:gap-y-8">
+        <motion.div className="flex flex-col items-center md:flex-row flex-wrap gap-y-14 md:gap-y-8 gap-x-7">
           {translation.cards.map((card, index) => {
             return (
               <PromotionCard
